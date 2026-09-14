@@ -1,0 +1,12 @@
+PyPDF2==3.0.1
+pdfplumber==0.10.3
+sentence-transformers
+numpy
+pinecone-client
+python-dotenv
+spacy
+neo4j
+google-generativeai
+torch
+transformers>=4.44.0
+huggingface_hub>=0.23.0,<0.26.0

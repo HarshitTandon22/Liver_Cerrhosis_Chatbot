@@ -1,0 +1,121 @@
+{
+  "analysis_date": "2025-10-10T22:21:07.954001",
+  "basic_statistics": {
+    "total_documents": 153,
+    "total_chunks": 2710,
+    "total_characters": 2503595,
+    "chunk_size_config": 1000,
+    "overlap_config": 0.2,
+    "overlap_size_config": 200
+  },
+  "chunk_distribution": {
+    "min_chunks": 14,
+    "max_chunks": 23,
+    "avg_chunks": 17.712418300653596,
+    "median_chunks": 18,
+    "total_documents": 153,
+    "total_chunks": 2710
+  },
+  "chunk_size_analysis": {
+    "min_size": 9,
+    "max_size": 1000,
+    "avg_size": 923.8357933579335,
+    "median_size": 971,
+    "size_distribution": {
+      "0-500": 87,
+      "500-750": 55,
+      "750-1000": 2568,
+      "1000-1250": 0,
+      "1250+": 0
+    }
+  },
+  "overlap_analysis": {
+    "chunks_with_prev_overlap": 191,
+    "chunks_with_next_overlap": 153,
+    "chunks_with_both_overlaps": 2366,
+    "chunks_with_no_overlap": 0,
+    "total_chunks": 2710
+  },
+  "top_documents": [
+    {
+      "filename": "12876_2020_Article_1163_extracted.json",
+      "document_id": "12876_2020_Article_1163.pdf",
+      "chunks_created": 23,
+      "total_characters": 21396,
+      "processing_successful": true
+    },
+    {
+      "filename": "ECI-55-e14328_extracted.json",
+      "document_id": "ECI-55-e14328.pdf",
+      "chunks_created": 22,
+      "total_characters": 20591,
+      "processing_successful": true
+    },
+    {
+      "filename": "hc9-8-e0532_extracted.json",
+      "document_id": "hc9-8-e0532.pdf",
+      "chunks_created": 22,
+      "total_characters": 20658,
+      "processing_successful": true
+    },
+    {
+      "filename": "JCMM-23-7151_extracted.json",
+      "document_id": "JCMM-23-7151.pdf",
+      "chunks_created": 22,
+      "total_characters": 20359,
+      "processing_successful": true
+    },
+    {
+      "filename": "12916_2014_Article_145_extracted.json",
+      "document_id": "12916_2014_Article_145.pdf",
+      "chunks_created": 21,
+      "total_characters": 19914,
+      "processing_successful": true
+    },
+    {
+      "filename": "bmjgast-11-1_extracted.json",
+      "document_id": "bmjgast-11-1.pdf",
+      "chunks_created": 21,
+      "total_characters": 19515,
+      "processing_successful": true
+    },
+    {
+      "filename": "Dtsch_Arztebl_Int-110-0126_extracted.json",
+      "document_id": "Dtsch_Arztebl_Int-110-0126.pdf",
+      "chunks_created": 21,
+      "total_characters": 20052,
+      "processing_successful": true
+    },
+    {
+      "filename": "pone.0032999_extracted.json",
+      "document_id": "pone.0032999.pdf",
+      "chunks_created": 21,
+      "total_characters": 20013,
+      "processing_successful": true
+    },
+    {
+      "filename": "12876_2025_Article_3982_extracted.json",
+      "document_id": "12876_2025_Article_3982.pdf",
+      "chunks_created": 20,
+      "total_characters": 18383,
+      "processing_successful": true
+    },
+    {
+      "filename": "12911_2023_Article_2402_extracted.json",
+      "document_id": "12911_2023_Article_2402.pdf",
+      "chunks_created": 20,
+      "total_characters": 18617,
+      "processing_successful": true
+    }
+  ],
+  "content_themes": {
+    "Patient": 31,
+    "Study": 15,
+    "Result": 12,
+    "Cirrhosis": 37,
+    "Method": 7,
+    "Liver": 37,
+    "Hepatitis": 7,
+    "Treatment": 4
+  }
+}

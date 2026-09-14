@@ -1,0 +1,105 @@
+{
+  "analysis_date": "2025-10-10T22:35:02.979501",
+  "basic_statistics": {
+    "model_name": "all-MiniLM-L12-v2",
+    "embedding_dimension": 384,
+    "total_embeddings": 2710,
+    "documents_processed": 153,
+    "processing_time": 0,
+    "batch_size": 32
+  },
+  "embedding_quality": {
+    "mean_norm": 1.0,
+    "std_norm": 4.105971740386849e-08,
+    "min_norm": 0.9999998807907104,
+    "max_norm": 1.0000001192092896,
+    "mean_similarity": 0.36261725425720215,
+    "std_similarity": 0.15342937409877777,
+    "min_similarity": -0.24488379061222076,
+    "max_similarity": 0.9581136703491211,
+    "embedding_shape": [
+      2710,
+      384
+    ],
+    "sample_size": 1000
+  },
+  "document_distribution": {
+    "total_documents": 153,
+    "total_chunks": 2710,
+    "avg_chunks_per_doc": 17.712418300653596,
+    "min_chunks_per_doc": 14,
+    "max_chunks_per_doc": 23,
+    "top_documents": [
+      {
+        "document_id": "12876_2020_Article_1163",
+        "chunk_count": 23,
+        "total_characters": 21396,
+        "avg_chunk_size": 930.2608695652174
+      },
+      {
+        "document_id": "ECI-55-e14328",
+        "chunk_count": 22,
+        "total_characters": 20591,
+        "avg_chunk_size": 935.9545454545455
+      },
+      {
+        "document_id": "hc9-8-e0532",
+        "chunk_count": 22,
+        "total_characters": 20658,
+        "avg_chunk_size": 939.0
+      },
+      {
+        "document_id": "JCMM-23-7151",
+        "chunk_count": 22,
+        "total_characters": 20359,
+        "avg_chunk_size": 925.4090909090909
+      },
+      {
+        "document_id": "12916_2014_Article_145",
+        "chunk_count": 21,
+        "total_characters": 19914,
+        "avg_chunk_size": 948.2857142857143
+      },
+      {
+        "document_id": "bmjgast-11-1",
+        "chunk_count": 21,
+        "total_characters": 19515,
+        "avg_chunk_size": 929.2857142857143
+      },
+      {
+        "document_id": "Dtsch_Arztebl_Int-110-0126",
+        "chunk_count": 21,
+        "total_characters": 20052,
+        "avg_chunk_size": 954.8571428571429
+      },
+      {
+        "document_id": "pone.0032999",
+        "chunk_count": 21,
+        "total_characters": 20013,
+        "avg_chunk_size": 953.0
+      },
+      {
+        "document_id": "12876_2025_Article_3982",
+        "chunk_count": 20,
+        "total_characters": 18383,
+        "avg_chunk_size": 919.15
+      },
+      {
+        "document_id": "12911_2023_Article_2402",
+        "chunk_count": 20,
+        "total_characters": 18617,
+        "avg_chunk_size": 930.85
+      }
+    ]
+  },
+  "overlap_patterns": {
+    "chunks_with_prev_overlap": 191,
+    "chunks_with_next_overlap": 153,
+    "chunks_with_both_overlaps": 2366,
+    "chunks_with_no_overlap": 0,
+    "chunks_with_prev_overlap_percentage": 7.047970479704797,
+    "chunks_with_next_overlap_percentage": 5.645756457564575,
+    "chunks_with_both_overlaps_percentage": 87.30627306273064,
+    "chunks_with_no_overlap_percentage": 0.0
+  }
+}

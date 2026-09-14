@@ -1,0 +1,14 @@
+# Pinecone Configuration
+# Copy this file to .env and fill in your actual values
+
+# Get your API key from: https://app.pinecone.io/organizations
+PINECONE_API_KEY=your_pinecone_api_key_here
+
+# Optional: Specify environment (default is usually 'us-east-1-aws')
+PINECONE_ENVIRONMENT=us-east-1-aws
+
+# Index Configuration
+INDEX_NAME=liver-cirrhosis-embeddings
+DIMENSION=384
+METRIC=cosine
+
